@@ -7,6 +7,7 @@ ASIOhost is a cpp/CLR interface to Steinberg's [Audio Stream Input/Output](http:
 + It provides a simple Windows Form that can be enhanced with the Visual Studio Forms designer
 + It provides an ASIO device enumeration control
 
+![Alt text](/screenshots/screenshot1.jpg?raw=true "ASIO host")
 
 ## Getting Started
 
