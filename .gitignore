@@ -1,0 +1,14 @@
+
+.cvsignore
+.vs/ASIOhost/v16/Browse.VC.db
+.vs/ASIOhost/v16/ipch/AutoPCH/323a617d6393fa81/HOST.ipch
+.vs/ASIOhost/v16/ipch/AutoPCH/cb747318ec0edb7a/FORM1.ipch
+.vs/ASIOhost/v16/ipch/AutoPCH/f2505faabf81bfdd/ASIOHOST.ipch
+ASIOhost/CVS/ENTRIES
+ASIOhost/CVS/Entries.Extra
+ASIOhost/CVS/Entries.Extra.Old
+ASIOhost/CVS/Entries.Old
+ASIOhost/CVS/Repository
+.vs/ASIOhost/v16/ipch/AutoPCH/deb2d878809095e5/ASIO.ipch
+.vs/ASIOhost/v16/ipch/AutoPCH/5ca26b51cbd088dd/ASIOLIST.ipch
+ASIOhost/CVS/Root

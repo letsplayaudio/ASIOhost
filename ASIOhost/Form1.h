@@ -178,7 +178,7 @@ namespace ASIOmarker {
 			this->MaximizeBox = false;
 			this->Name = L"Form1";
 			this->ShowIcon = false;
-			this->Text = L"DAVID marker";
+			this->Text = L"ASIO host";
 			this->FormClosed += gcnew System::Windows::Forms::FormClosedEventHandler(this, &Form1::Form1_FormClosed);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
