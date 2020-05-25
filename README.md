@@ -1,11 +1,13 @@
 # About ASIOhost
- Windows Forms cpp/CLR ASIO host
+ Windows Forms cpp/CLR ASIO host skeleton
  
-ASIOhost is a cpp/CLR interface to Steinberg's [Audio Stream Input/Output](http://en.wikipedia.org/wiki/Audio_Stream_Input/Output) (ASIO) API. It provides access to low-level ASIO audio drivers and low-latecy (< 10ms) audio input and output access to the available audio hardware on **Windows**.
+ASIOhost is a simple Windows Forms cpp/CLR skeleton to use the Steinberg's [Audio Stream Input/Output](http://en.wikipedia.org/wiki/Audio_Stream_Input/Output) (ASIO) API. It provides access to low-level ASIO audio drivers for low-latecy (< 10ms) audio input and output access **Windows** audio hardware.
 
-+ It provides a simple hook procedure for customized mono or multichannel audio processing  
-+ It provides a simple Windows Form that can be enhanced with the Visual Studio Forms designer
-+ It provides an ASIO device enumeration control
+It provides:
+
++ A simple hook function for customized mono or multichannel audio processing  
++ A simple Windows Form that can be enhanced with the Visual Studio Forms Designer
++ An ASIO device enumeration control
 
 ![Alt text](/screenshots/screenshot1.jpg?raw=true "ASIO host")
 
