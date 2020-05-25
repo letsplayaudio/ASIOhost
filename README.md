@@ -13,7 +13,7 @@ ASIOhost is a cpp/CLR interface to Steinberg's [Audio Stream Input/Output](http:
 + You must [download](http://www.steinberg.net/en/company/developer.html) your own copy of the ASIO library. It cannot be distributed here due to licensing restrictions by Steinberg.
 + Copy the ASIOSDK2.3.2 folder besides the ASIOhost folder 
 + Compile with MS Visual Studio 2019 
-+ In case you don't have an ASIO device driver installed, consider to use the [ASIO4ALL] (http://www.asio4all.org/) generic ASIO driver.
++ In case you don't have an ASIO device driver installed, consider to use the [ASIO4ALL](http://www.asio4all.org/) generic ASIO driver.
 
 
 ## Acknowledgements
