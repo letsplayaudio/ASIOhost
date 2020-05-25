@@ -20,7 +20,7 @@ It provides:
 
 ## Audio processing
 
-Hock your audio processing code into the following function (host.cpp)
+Hook your audio processing code into the following function (host.cpp)
 ```cpp
 bool ProcessSamples(void *inputBuffer, void *outputBuffer, long sampleCount, int channel, ASIOSampleType bufferType)
 {
