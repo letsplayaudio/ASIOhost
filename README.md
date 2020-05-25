@@ -15,6 +15,32 @@ ASIOhost is a cpp/CLR interface to Steinberg's [Audio Stream Input/Output](http:
 + Compile with MS Visual Studio 2019 
 + In case you don't have an ASIO device driver installed, consider to use the [ASIO4ALL](http://www.asio4all.org/) generic ASIO driver.
 
+## Audio processing
+
+Hock your audio processing code into the following function (host.cpp)
+```cpp
+bool ProcessSamples(void *inputBuffer, void *outputBuffer, long sampleCount, int channel, ASIOSampleType bufferType)
+{
+
+	long  *outBuff = (long*)outputBuffer;
+	long  *inBuff = (long*)inputBuffer;
+	float  sampleIn, sampleOut;
+
+
+	for (int i = 0; i < sampleCount; i++, outBuff++, inBuff++) {
+
+		sampleIn = *inBuff / CPClipSample32;
+
+		// Processing
+		sampleOut = sampleIn *(float)0.5;
+
+		*outBuff = round(CPClipSample32* sampleOut);
+		
+	}
+
+	return true;
+}
+```
 
 ## Acknowledgements
 ASIO is a trademark and software of Steinberg Media Technologies GmbH
